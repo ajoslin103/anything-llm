@@ -5,9 +5,9 @@
 
 #2 Create a workspace named "David Lynch" and click on the button to upload files
 
-#3 Drag in JUST the files in rag-david-lynch folder for now
+#3 Drag in JUST the files in rag-film-types folder for now
 
-#4 (anything LLM doesn't have great feedback) You'll have to wait a minute and then close the uploader -- you should see the documents with their spinners waiting to complete embedding -- wait it out 
+#4 Select the files and move them to the workspace and then scroll all the way down to save your changes
 
 #5 go to the prefs for the workspace and set the chat type to "query" and click the "update workspace" button
 
