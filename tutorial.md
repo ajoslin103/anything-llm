@@ -44,21 +44,26 @@ NOTE: TRY NOT TO USE THE DEFAULT CHAT - IT CAN'T BE DELETED SO IT'S ANSWERS WILL
 
 #1 in ALLM go to settings and developer api and generate and copy an api key - (you will be able to copy it later)
 
-#2 open a terminal into the repo and enter `pip install requests`
+#2 open a terminal into the repo and enter `pip install requests` (or `pip3 install requests` if you use python3)
 
 #3 run the small test to check if the api is working
 
 `API_KEY="<your-api-key-here" python list_workspaces.py`
 
-#4 your result should be information about David Lynch's acting as well as the contexts the query was relevant to
+#4 your result should be the name and slug of our "David Lynch" workspace which has a "slug" of: david-lynch
 
-#5 run the real test to query the rag
+#5 (we have already put that slug into the code) so we can just run the real test to query the rag
 
 `API_KEY="<your-api-key-here" python query_workspace.py`
 
-#6 a few mins later your result should include a list of actors and shows
+#6 a few mins later your result should return with your data
 
 👍 we have queried the RAG databaase
+
+- accessing the API documentation
+
+    - http://localhost:3001/api/docs
+    - authenticate the docs & then you can 'try out' the endpoints
 
 - general understanding 
 
