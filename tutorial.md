@@ -26,7 +26,7 @@ NOTE: TRY NOT TO USE THE DEFAULT CHAT - IT CAN'T BE DELETED SO IT'S ANSWERS WILL
 
 #### context test
 
-#8 add the file "David Lynch - Wikipedia" to your workspace
+#8 add the file "Filmography" to your workspace
 
 #9 delete the old chats and ask again in a new one: "What was the name of David Lynch's first wife?" 
 
