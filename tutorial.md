@@ -4,37 +4,43 @@
 
     - Select an LLM (AnythingLLM : Gemma2)
 
-#2 Create a workspace named "David Lynch" and click on the button to upload files
-
-#3 Drag in JUST the "Experimental Film" from the "rag-film-types" folder for now
-
-#4 Select the file and move it to the workspace and then scroll all the way down to save your changes
-
-#5 go to the prefs for the workspace 
-
-    - set the chat type to "query"
-    - set the temperature to 0
-    - click the "update workspace" button
+#2 Create a workspace named "David Lynch"
 
 NOTE: TRY NOT TO USE THE DEFAULT CHAT - IT CAN'T BE DELETED SO IT'S ANSWERS WILL BECOME SHARED DATA (?)
 
-#6 click on the "NEW CHAT" tab and type in: "What was the name of David Lynch's first wife?" 
+#3 click on the "NEW CHAT" tab and type in: What were the names of any of David Lynch's wives? 
 
-#7 the answer should come back very quickly (because of the low temp and the small amount of data)
+#4 the answer will be inclusive of all his wives, as would be expected with a CHAT
 
-👍 we have confirmed installation and creation of the RAG database by querying and receiving a response
+#5 go to the Workspace chat and set type to QUERY - AND set the TEMP to 0 (zero) - save changes at the bottom
 
-#### context test
+#6 paste in: What were the names of any of David Lynch's wives? 
 
-#8 add the file "Filmography" to your workspace
+#7 the answer will be "There is no relevant information in this workspace to answer your query" - this is expected with a QUERY
 
-#9 delete the old chats and ask again in a new one: "What was the name of David Lynch's first wife?" 
+#8 Drag in JUST the "Wikipedia" from the "rag-david-lynch" folder for now
 
-#10 the answer have some information and a bit slower for the larger amount of data
+#9 Select the file and move it to the workspace and then scroll all the way down to save your changes
 
-👍 good - now where is the code ??
+#10 the answer should be: "Jennifer Lynch, Peggy Reavey, Mary Fisk, Isabella Rossellini, Emily Stofle are some of the names of David Lynch’s wives"
 
-## Coooooooode !!
+#11 ask the same question again, and you should get the same answer
+
+#12 change the TEMP to 0.5 and save
+
+#13 ask the same question again, and you should get a different answer
+
+#14 change the TEMP to 1 and save
+
+#15 ask the same question again, and you should get a fairly bizzare answer
+
+#16 lower the TEMP back to something around 0.25
+
+👍 good - we have confirmed installation and creation of the RAG database by querying and receiving a response, and we have seen how temperature can affect the results
+
+## Now, where is code ??
+
+#### Coooooooode !!
 
 #1 in ALLM go to settings and developer api and generate and copy an api key - (you will be able to copy it later)
 

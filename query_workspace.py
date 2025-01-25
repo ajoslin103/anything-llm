@@ -18,7 +18,7 @@ headers = {
 # Function to send a chat query
 def send_chat_query(workspace_slug, query):
     payload = {
-        "message": "what movies did david lynch act in?",
+        "message": "What were the names of any of David Lynch's wives?",
         "mode": "query",
         "sessionId": "identifier-to-partition-chats-by-external-id",
         "attachments": []
