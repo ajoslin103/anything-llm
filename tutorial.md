@@ -1,3 +1,4 @@
+## Setup and test
 
 #1 install anything LLM & follow instructions to run locally
 
@@ -5,15 +6,35 @@
 
 #2 Create a workspace named "David Lynch" and click on the button to upload files
 
-#3 Drag in JUST the files in rag-film-types folder for now
+#3 Drag in JUST the "Experimental Film" from the "rag-film-types" folder for now
 
-#4 Select the files and move them to the workspace and then scroll all the way down to save your changes
+#4 Select the file and move it to the workspace and then scroll all the way down to save your changes
 
-#5 go to the prefs for the workspace and set the chat type to "query" and click the "update workspace" button
+#5 go to the prefs for the workspace 
 
-#6 click on the "chat" tab and type in: What was the name of David Lynch's first wife?" 
+    - set the chat type to "query"
+    - set the temperature to 0
+    - click the "update workspace" button
+
+NOTE: TRY NOT TO USE THE DEFAULT CHAT - IT CAN'T BE DELETED SO IT'S ANSWERS WILL BECOME SHARED DATA (?)
+
+#6 click on the "NEW CHAT" tab and type in: "What was the name of David Lynch's first wife?" 
+
+#7 the answer should come back very quickly (because of the low temp and the small amount of data)
 
 👍 we have confirmed installation and creation of the RAG database by querying and receiving a response
+
+#### context test
+
+#8 add the file "David Lynch - Wikipedia" to your workspace
+
+#9 delete the old chats and ask again in a new one: "What was the name of David Lynch's first wife?" 
+
+#10 the answer have some information and a bit slower for the larger amount of data
+
+👍 good - now where is the code ??
+
+## Coooooooode !!
 
 #1 in ALLM go to settings and developer api and generate and copy an api key - (you will be able to copy it later)
 
