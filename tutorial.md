@@ -1,15 +1,17 @@
 
-#1 install anything LLM & follow instructions to run locally -- select an LLM (I used AnythingLLM to download and use Llama3 3B)
+#1 install anything LLM & follow instructions to run locally
 
-#2 create a workspace named "David Lynch" and click on the button to upload files
+    - Select an LLM (AnythingLLM : Gemma2)
 
-#3 drag in all the pdf's from the rag-david-lynch folder of this repo
+#2 Create a workspace named "David Lynch" and click on the button to upload files
 
-#4 Anything LLM doesn't have great feedback, you'll have to wait a minute and then close the uploader -- you should see the documents with their spinners waiting to complete embedding -- wait it out 
+#3 Drag in JUST the files in rag-david-lynch folder for now
+
+#4 (anything LLM doesn't have great feedback) You'll have to wait a minute and then close the uploader -- you should see the documents with their spinners waiting to complete embedding -- wait it out 
 
 #5 go to the prefs for the workspace and set the chat type to "query" and click the "update workspace" button
 
-#6 click on the "chat" tab and type in: who did david lynch collaborate with?" -- on my m2 this took about 3 minutes and the answer listed several actors and shows
+#6 click on the "chat" tab and type in: What was the name of David Lynch's first wife?" 
 
 👍 we have confirmed installation and creation of the RAG database by querying and receiving a response
 
@@ -39,10 +41,3 @@
 
         - https://discord.com/channels/1114740394715004990/1327526178403127366/1327863441293180948
 
-- troubleshooting
-
-    - go to your API testing area http://localhost:3001/api/docs
-    - and paste in your API Key after clicking a lock somwewhere
-        - (strangely, a LOCKED icon means you ARE logged in, while a grey unlocked icon means you are NOT logged in)
-      
-    - expand any endpoint and click "Try it out" and then "Execute" to see the results after you setup your values
